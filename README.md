@@ -1,8 +1,4 @@
 
-w to set up web3.js with CRNA
-
-This is a simple guide to get you started with using the Ethereum Javascript API ([web3.js](https://github.com/ethereum/web3.js/)) with the Create React Native App project. This is not an in-depth guide.
-
 1. Make sure you have Node version 6 or later installed, if not, get it on the [Node website](http://nodejs.org/)
 
 	`node --version`
@@ -99,3 +95,4 @@ This is a simple guide to get you started with using the Ethereum Javascript API
 	    return new Buffer(b64Encoded, 'base64').toString('binary');
 	  };
 	}
+	```
