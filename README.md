@@ -68,22 +68,11 @@
       web3.eth.getBlock('latest').then(console.log)
     }
 	```
-    
-12. Test it
 
-	`npm start`
-    
-    or
-    
-	`npm run ios`
-    
-    or
-    
-    `npm run android`
+12. Add global btoa variable to the global.js
 
-13. Add global btoa variable to the global.js
-
-        ```javascript
+	
+	```javascript
 	if (typeof btoa === 'undefined') {
 	  global.btoa = function (str) {
 	    return new Buffer(str, 'binary').toString('base64');
@@ -96,3 +85,14 @@
 	  };
 	}
 	```
+13. Test it
+
+	`npm start`
+    
+    or
+    
+	`npm run ios`
+    
+    or
+    
+    `npm run android`
